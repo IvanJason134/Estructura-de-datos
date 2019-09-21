@@ -32,4 +32,8 @@ export default class Tortuga extends Corredor {
     _resbalon() {
         return this._posicion -= 6;
     }
+
+    _toString() {
+        return "La tortuga se encuentra en el paso: " + this._posicion;
+    }
 }

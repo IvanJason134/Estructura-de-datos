@@ -19,5 +19,13 @@ function carrera() {
     } else if (tortuga._posicion >= 90 && liebre._posicion >= 90) {
         console.log("Fue un empate");
     }
+    if  (tortuga._posicion >= 90 && liebre._posicion >= 90) {
+        console.log("Fue un empate");
+    }
+    else if (liebre._posicion >= 90) {
+        console.log("La liebre gano");
+    } else 
+        console.log("La tortuga gano");
+    }
 }
     

@@ -27,7 +27,7 @@ export default class Liebre extends Corredor {
                 this._resbalonPequeño();
             }
         }
-        
+
         return this._posicion;
     }
 
@@ -49,5 +49,9 @@ export default class Liebre extends Corredor {
 
     _resbalonPequeño() {
         return this._posicion -= 2;
+    }
+
+    _toString() {
+        return "La liebre se encuentra en el paso: " + this._posicion;
     }
 }
