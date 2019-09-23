@@ -15,10 +15,10 @@ function evaluar() {
 }
 
 function calcularNumeroPrimo(i) {
-    let contador = 0;
+    let divisores = [];
     for (let j = 1; j <= i; j++) {
             if (i%j == 0) {
-                contador++;
+                divisores.push(j);
             }
         }
 
