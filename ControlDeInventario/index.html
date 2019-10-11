@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sitema control de inventario</title>
+</head>
+<body>
+    <form>
+        <h3>Control de inventario</h3>
+        <label for="codigo">Codigo: </label>
+        <input type="number" id="codigo" min="0">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre">
+        <label for="precio">Precio: $</label>
+        <input type="number" id="precio" min="0">
+        <label for="cantidad">Cantidad: </label>
+        <input type="number" id="cantidad" min="1">
+        <label for="descripcion">Descripcion: </label>
+        <input type="text" id="descripcion">
+        <button type="button" id="btnAgregar">Agregar</button>
+    </form> 
+    <script src="./main.js" type="module"></script>
+</body>
+</html>
